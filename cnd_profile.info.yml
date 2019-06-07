@@ -1,7 +1,6 @@
 name: Consult and Design Profile
 type: profile
 description: 'Custom Consult and Design install with commonly used modules, content and block types pre-configured.'
-version: 8.x-1.0a
 core: 8.x
 install:
   - node

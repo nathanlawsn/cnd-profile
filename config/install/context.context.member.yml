@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - context_active_trail
+    - ctools
+name: member
+label: Member
+group: null
+description: 'Set the active menu trail'
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      member: member
+    negate: 0
+    uuid: 254c2fa5-434a-43c7-b108-940b84b13ad8
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  active_trail:
+    id: active_trail
+    trail: 'main:menu_link_content:625fa907-4980-4746-a1f5-93482dd40792'
+    breadcrumbs: 0
+    breadcrumb_title: 0
+    uuid: 67d2d5bb-ebd3-4131-8635-5cb3222f5cf7
+weight: 0

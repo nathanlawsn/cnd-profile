@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - context_active_trail
+    - ctools
+name: case_study
+label: 'Case study'
+group: null
+description: 'Set the active menu trail'
+requireAllConditions: false
+disabled: false
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      case_study: case_study
+    negate: 0
+    uuid: 60e89b6a-9f94-4074-8ff6-7163358c3f59
+    context_mapping:
+      node: '@node.node_route_context:node'
+reactions:
+  active_trail:
+    id: active_trail
+    trail: 'main:menu_link_content:e41487fd-2918-401d-a9bc-764f41c8f3e5'
+    breadcrumbs: 0
+    breadcrumb_title: 0
+    uuid: c5eac303-fd43-4c1a-a1f9-672f0b077315
+weight: 0

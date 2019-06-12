@@ -3,19 +3,25 @@ status: true
 dependencies:
   config:
     - block_content.type.video_block
-    - field.field.block_content.video_block.body
+    - field.field.block_content.video_block.field_video
   module:
-    - text
+    - video_embed_field
+_core:
+  default_config_hash: cyaA1ZvTqLoAQALnbvk5Cx0m7IxhREZE_bukwe8B0Bg
 id: block_content.video_block.default
 targetEntityType: block_content
 bundle: video_block
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 0
-    settings: {  }
+  field_video:
+    weight: 1
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
     third_party_settings: {  }
+    type: video_embed_field_video
     region: content
 hidden: {  }

@@ -8,13 +8,13 @@ install:
   - block
   - breakpoint
   - ckeditor
-  - color
   - config
   - comment
   - contextual
   - contact
   - menu_link_content
   - datetime
+  - datetime_range
   - block_content
   - quickedit
   - editor
@@ -44,6 +44,8 @@ install:
   - media
   - responsive_image
   - settings_tray
+  - update
+  - address
   - admin_toolbar
   - admin_toolbar_tools
   - advagg

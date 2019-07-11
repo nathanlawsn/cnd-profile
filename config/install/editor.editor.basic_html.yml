@@ -45,7 +45,7 @@ settings:
             - Styles
   plugins:
     stylescombo:
-      styles: "p.headline-1|Headline 1\r\np.headline-2|Headline 2"
+      styles: ''
     language:
       language_list: un
 image_upload:

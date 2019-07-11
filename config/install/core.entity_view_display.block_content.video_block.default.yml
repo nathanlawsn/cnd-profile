@@ -6,8 +6,6 @@ dependencies:
     - field.field.block_content.video_block.field_video
   module:
     - video_embed_field
-_core:
-  default_config_hash: cyaA1ZvTqLoAQALnbvk5Cx0m7IxhREZE_bukwe8B0Bg
 id: block_content.video_block.default
 targetEntityType: block_content
 bundle: video_block
@@ -15,7 +13,7 @@ mode: default
 content:
   field_video:
     weight: 1
-    label: above
+    label: hidden
     settings:
       responsive: true
       width: 854

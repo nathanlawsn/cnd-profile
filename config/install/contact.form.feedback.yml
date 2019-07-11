@@ -4,7 +4,7 @@ dependencies: {  }
 id: feedback
 label: 'Website feedback'
 recipients:
-  - nathan@consultanddesign.com
+  - ask@consultanddesign.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

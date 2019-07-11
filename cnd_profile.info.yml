@@ -45,7 +45,6 @@ install:
   - responsive_image
   - settings_tray
   - update
-  - address
   - admin_toolbar
   - admin_toolbar_tools
   - advagg

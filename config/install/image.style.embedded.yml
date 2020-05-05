@@ -1,0 +1,15 @@
+uuid: b360e4f5-7c9d-4f38-a4ec-82a57e97be2f
+langcode: en
+status: true
+dependencies: {  }
+name: embedded
+label: Embedded
+effects:
+  94410646-b3ac-4cf9-a6bb-74f13563871e:
+    uuid: 94410646-b3ac-4cf9-a6bb-74f13563871e
+    id: image_scale
+    weight: 1
+    data:
+      width: 825
+      height: null
+      upscale: false

@@ -21,6 +21,7 @@ third_party_settings:
       -
         layout_id: layout_onecol
         layout_settings:
+          section_name: null
           style: null
         components:
           d22346b1-7930-4827-84fd-afa6bcefd566:

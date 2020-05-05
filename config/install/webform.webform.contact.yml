@@ -203,6 +203,8 @@ handlers:
       return_path: ''
       sender_mail: ''
       sender_name: ''
+      exclude_attachments: false
+      parameters: {  }
   email_notification:
     id: email
     label: 'Email notification'
@@ -237,3 +239,6 @@ handlers:
       return_path: ''
       sender_mail: ''
       sender_name: ''
+      exclude_attachments: false
+      parameters: {  }
+variants: {  }
